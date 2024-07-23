@@ -7,7 +7,7 @@ function GamesPage() {
   const [filter, setFilter] = useState('default')
 
   useEffect(() => {
-    fetch('http://localhost:3031/Products')
+    fetch('/Products')
       .then(response => response.json())
       .then(data => setProducts(data))
       .catch(error => console.error('Error fetching products:', error))
