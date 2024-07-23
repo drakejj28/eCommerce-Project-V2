@@ -3,6 +3,8 @@ const mysql = require('mysql2')
 const cors = require('cors')
 const app = express()
 const PORT = 3031
+const path = require('path')
+
 
 const db = mysql.createConnection({
   host: 'sql5.freesqldatabase.com',
@@ -19,12 +21,17 @@ db.connect(err => {
   }
   console.log('yoo')
 })
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use(express.static(path.join(__dirname, 'build')));
 
 // app.use(cors())
 app.use(cors({
   origin: 'http://localhost:5173'
 }));
 
+app.use
 app.get('/', (req,res) => {
   return res.json('yooo');
 });
