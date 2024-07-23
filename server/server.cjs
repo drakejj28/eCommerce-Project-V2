@@ -24,7 +24,7 @@ db.connect(err => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'dist')));
 app.use('/images', express.static(path.join(__dirname, 'src', 'images')));
 
 // app.use(cors())
@@ -34,7 +34,7 @@ app.use(cors({
 
 app.use
 app.get('/', (req,res) => {
-  return res.json('yooo');
+  return res.json('active');
 });
 
 
