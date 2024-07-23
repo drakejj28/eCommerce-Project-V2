@@ -1,0 +1,51 @@
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px #666;
+  height: 15%;
+  position: fixed;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #800000;
+  transform: scale(1.1);
+  opacity: 85%;
+}
+
+.navbar-logo {
+  height: 100px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
