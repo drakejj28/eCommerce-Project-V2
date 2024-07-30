@@ -45,9 +45,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px #666;
     padding: 10px;
     border-radius: 8px;
+  }
+
+  .cart-item h3 {
+    color: #800000;
   }
   
   .cart-item-image {

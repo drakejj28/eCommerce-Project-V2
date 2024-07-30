@@ -121,6 +121,10 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+
+.products-grid h3 {
+  color: #800000;
+}
   
 .product-card {
     flex: 1 1 calc(33.333% - 20px);
@@ -193,4 +197,76 @@
   .add-to-cart-button:hover {
     background-color: #666;;
   }
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+
+  .round-button {
+    font-size: 1.25rem;
+    padding: 8px 16px;
+  }
+
+  .title {
+    font-size: 3rem;
+    padding: 0 10px;
+  }
+
+  .para {
+    font-size: 0.875rem;
+    padding: 0 10px;
+  }
+
+  .games-container h1 {
+    font-size: 3.5rem;
+    padding: 0 10px;
+  }
+
+  .product-card {
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .hero-image-games {
+    width: 100%;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    padding: 0 5px;
+  }
+
+  .round-button {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    padding: 0 5px;
+  }
+
+  .para {
+    font-size: 0.75rem;
+    padding: 0 5px;
+  }
+
+  .games-container h1 {
+    font-size: 2.5rem;
+    padding: 0 5px;
+  }
+
+  .product-card {
+    flex: 1 1 100%;
+    margin: 5px 0;
+  }
+}
+
+
   

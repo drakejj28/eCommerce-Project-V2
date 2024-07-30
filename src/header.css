@@ -44,14 +44,14 @@
 }
 
 .cart-icon {
-  height: 4rem;
+  height: 2rem;
   position: relative;
 }
 
 .cart-count {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: 1px;
+  right: 1px;
   background-color: #800000;
   color: whitesmoke;
   border-radius: 50%;
