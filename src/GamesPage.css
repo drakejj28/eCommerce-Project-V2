@@ -1,41 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+.hero-image-games {
+  background-image: url('images/games2.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end; 
+  justify-content: flex-start;
+  padding-left: 2%; 
+  padding-bottom: 2%; 
+  box-shadow: 10px 10px 10px #666;
+  animation: 3s ease-out 0s 1 slideInFromLeft;
+  margin-top: 10%;
+}
+
+.hero-text {
+    font-size: 3rem;
+    color: white;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    animation: 5s ease-out 0s 1 slideInFromLeft;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    opacity: 75%;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.round-button:hover {
+    background-color: beige;
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 5.5rem;
+    opacity: 65%;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    animation: 5s ease-out 0s 1 slideInFromLeft;
+}
+
+.para {
+  color: #666;
+  font-size: 1.25rem;
+  font-family: Arial, sans-serif;
+  animation: 3s ease-out 0s 1 slideInFromLeft;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
 .games-container {
     padding: 20px;
   }
+
+.games-container h1 {
+  text-align: center;
+  color: #800000;
+  font-size: 6rem;
+  opacity: 75%;
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  animation: 3s ease-out 0s 1 slideInFromLeft;
+}
+
+.games-container h1:hover {
+  transform: scale(1.1);
+  opacity: 70%;
+  color: #666;
+}
   
-  .filter-container {
+.filter-container {
     margin-bottom: 20px;
+    color: #666;
+    font-size: 1.25rem;
+    font-family: Arial, sans-serif;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+    text-align: center;
   }
   
-  .products-grid {
+.products-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
   
-  .product-card {
+.product-card {
     flex: 1 1 calc(33.333% - 20px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px #666;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;
   }
   
-  .product-card:hover {
+.product-card:hover {
     transform: scale(1.05);
   }
   
-  .product-card img {
+.product-card img {
     width: 100%;
     height: auto;
   }
   
-  .product-card h3 {
+.product-card h3 {
     margin: 10px 0;
     font-size: 1.2em;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    animation: 5s ease-out 0s 1 slideInFromLeft;
   }
   
-  .product-card p {
+.product-card p {
     margin: 5px 0;
-    color: #555;
+    color: #666;
+    font-size: 1.25rem;
+    font-family: Arial, sans-serif;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .hero-image-bottom {
+    background-image: url('images/dance.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start;
+    padding-left: 2%; 
+    padding-bottom: 5%; 
+    padding-top: 20%;
+    box-shadow: 10px 10px 10px #666;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+
+  .add-to-cart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #666;;
   }
   

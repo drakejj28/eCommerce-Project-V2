@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.hero-image-join {
+    background-image: url('images/gameshero.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start;
+    padding-left: 2%; 
+    padding-bottom: 2%; 
+    box-shadow: 10px 10px 10px #666;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+    margin-top: 10%;
+  }
+
+  .hero-text {
+    font-size: 3rem;
+    color: white;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    animation: 5s ease-out 0s 1 slideInFromLeft;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    opacity: 75%;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.round-button:hover {
+    background-color: beige;
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 5.5rem;
+    opacity: 65%;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    animation: 5s ease-out 0s 1 slideInFromLeft;
+}
+
+.join h2 {
+    color: #800000;
+    font-size: 6rem;
+    opacity: 75%;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+}
+
+.join h2:hover {
+    transform: scale(1.1);
+    opacity: 70%;
+    color: #666;
+}
+
+.join-para {
+    color: #666;
+    font-size: 1.25rem;
+    font-family: Arial, sans-serif;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.join-para li {
+    padding-bottom: 5%;
+}
+
+.contact-form-section {
+    padding: 2rem;
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #666;
+    margin: 2rem auto;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .contact-form-section:hover {
+    transform: scale(1.02);
+  }
+  
+  .contact-form-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #800000;
+    font-size: 6rem;
+    opacity: 75%;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #800000;
+    box-shadow: 10px 10px 10px #666;
+    outline: none;
+  }
+  
+  .error {
+    color: #800000;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .submit-button {
+    padding: 0.75rem;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+  }
+
+  .hero-image-join-bottom {
+    background-image: url('images/games3.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start;
+    padding-left: 2%; 
+    padding-bottom: 2%; 
+    box-shadow: 10px 10px 10px #666;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+  
+  
